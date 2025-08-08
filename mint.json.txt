@@ -1,0 +1,33 @@
+{
+  "name": "OpenWeatherMap API Docs",
+  "logo": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png",
+  "favicon": "https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png",
+  "openapi": "./openweathermap-api.yaml",
+  "theme": {
+    "colors": {
+      "primary": "#FF9800",
+      "secondary": "#1976D2",
+      "accent": "#FF5722",
+      "background": "#FFFFFF",
+      "text": "#212121"
+    }
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        { "name": "Introduction", "path": "docs/introduction.md" },
+        { "name": "Authentication", "path": "docs/authentication.md" },
+        { "name": "Errors", "path": "docs/errors.md" }
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        { "name": "Endpoints", "path": "reference" }
+      ]
+    }
+  ]
+}
+
+
